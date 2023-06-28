@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3446B8C2A4C5F5B00F0D3B6 /* Houses.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3446B8B2A4C5F5B00F0D3B6 /* Houses.swift */; };
+		A356428E2A4597280020728E /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A356428D2A4597280020728E /* Characters.swift */; };
+		A3636BDF2A48736300A47656 /* daenerys.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3636BDE2A48736300A47656 /* daenerys.jpg */; };
+		A3636BE12A4884A100A47656 /* DecoyBirds.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3636BE02A4884A100A47656 /* DecoyBirds.swift */; };
+		A39D52272A4AF7D800C80FDF /* averageWesterosJane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A39D52262A4AF7D800C80FDF /* averageWesterosJane.jpg */; };
+		A3B4A6032A49EA0B00962D65 /* averageWesterosJoe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3B4A6022A49EA0B00962D65 /* averageWesterosJoe.jpg */; };
+		A3BC37E72A484BD900590440 /* CharactersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BC37E62A484BD900590440 /* CharactersListView.swift */; };
+		A3BC37E92A484CF100590440 /* CharacterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BC37E82A484CF000590440 /* CharacterDetailView.swift */; };
+		A3BC37EB2A484D1400590440 /* DecoyBirdListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BC37EA2A484D1400590440 /* DecoyBirdListView.swift */; };
+		A3BC37F32A485EBA00590440 /* HouseColour.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BC37F22A485EBA00590440 /* HouseColour.swift */; };
+		A3DA37232A4ABDCD00D05E98 /* CharacterDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DA37222A4ABDCD00D05E98 /* CharacterDataManager.swift */; };
 		A3DB92972A45909500D6919B /* Varys_s_Book_of_Little_BirdsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DB92962A45909500D6919B /* Varys_s_Book_of_Little_BirdsApp.swift */; };
 		A3DB92992A45909500D6919B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DB92982A45909500D6919B /* ContentView.swift */; };
 		A3DB929B2A45909D00D6919B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3DB929A2A45909D00D6919B /* Assets.xcassets */; };
@@ -14,6 +25,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A3446B8B2A4C5F5B00F0D3B6 /* Houses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Houses.swift; sourceTree = "<group>"; };
+		A356428D2A4597280020728E /* Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
+		A3636BDE2A48736300A47656 /* daenerys.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = daenerys.jpg; sourceTree = "<group>"; };
+		A3636BE02A4884A100A47656 /* DecoyBirds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoyBirds.swift; sourceTree = "<group>"; };
+		A39D52262A4AF7D800C80FDF /* averageWesterosJane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = averageWesterosJane.jpg; sourceTree = "<group>"; };
+		A3B4A6012A49E45300962D65 /* Varys-s-Book-of-Little-Birds-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Varys-s-Book-of-Little-Birds-Info.plist"; sourceTree = SOURCE_ROOT; };
+		A3B4A6022A49EA0B00962D65 /* averageWesterosJoe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = averageWesterosJoe.jpg; sourceTree = "<group>"; };
+		A3BC37E62A484BD900590440 /* CharactersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersListView.swift; sourceTree = "<group>"; };
+		A3BC37E82A484CF000590440 /* CharacterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailView.swift; sourceTree = "<group>"; };
+		A3BC37EA2A484D1400590440 /* DecoyBirdListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoyBirdListView.swift; sourceTree = "<group>"; };
+		A3BC37F22A485EBA00590440 /* HouseColour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseColour.swift; sourceTree = "<group>"; };
+		A3DA37222A4ABDCD00D05E98 /* CharacterDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDataManager.swift; sourceTree = "<group>"; };
 		A3DB92932A45909500D6919B /* Varys's Book of Little Birds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Varys's Book of Little Birds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3DB92962A45909500D6919B /* Varys_s_Book_of_Little_BirdsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Varys_s_Book_of_Little_BirdsApp.swift; sourceTree = "<group>"; };
 		A3DB92982A45909500D6919B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +55,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A3BC37EE2A484D8600590440 /* DecoyViews */ = {
+			isa = PBXGroup;
+			children = (
+				A3BC37EA2A484D1400590440 /* DecoyBirdListView.swift */,
+			);
+			path = DecoyViews;
+			sourceTree = "<group>";
+		};
+		A3BC37EF2A484D9900590440 /* RealViews */ = {
+			isa = PBXGroup;
+			children = (
+				A3DB92982A45909500D6919B /* ContentView.swift */,
+				A3BC37E62A484BD900590440 /* CharactersListView.swift */,
+				A3BC37E82A484CF000590440 /* CharacterDetailView.swift */,
+			);
+			path = RealViews;
+			sourceTree = "<group>";
+		};
+		A3DA37242A4ABFE600D05E98 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A3DA37222A4ABDCD00D05E98 /* CharacterDataManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		A3DB928A2A45909400D6919B = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +100,14 @@
 		A3DB92952A45909500D6919B /* Varys's Book of Little Birds */ = {
 			isa = PBXGroup;
 			children = (
+				A3B4A6012A49E45300962D65 /* Varys-s-Book-of-Little-Birds-Info.plist */,
 				A3DB92962A45909500D6919B /* Varys_s_Book_of_Little_BirdsApp.swift */,
-				A3DB92982A45909500D6919B /* ContentView.swift */,
+				A3DB92A42A4592F300D6919B /* Views */,
+				A3DB92A52A4593C100D6919B /* Model */,
+				A3DA37242A4ABFE600D05E98 /* Services */,
 				A3DB929A2A45909D00D6919B /* Assets.xcassets */,
+				A39D52262A4AF7D800C80FDF /* averageWesterosJane.jpg */,
+				A3B4A6022A49EA0B00962D65 /* averageWesterosJoe.jpg */,
 				A3DB929C2A45909D00D6919B /* Preview Content */,
 			);
 			path = "Varys's Book of Little Birds";
@@ -62,9 +116,30 @@
 		A3DB929C2A45909D00D6919B /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				A3636BDE2A48736300A47656 /* daenerys.jpg */,
 				A3DB929D2A45909D00D6919B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A3DB92A42A4592F300D6919B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A3BC37EF2A484D9900590440 /* RealViews */,
+				A3BC37EE2A484D8600590440 /* DecoyViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A3DB92A52A4593C100D6919B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A356428D2A4597280020728E /* Characters.swift */,
+				A3446B8B2A4C5F5B00F0D3B6 /* Houses.swift */,
+				A3BC37F22A485EBA00590440 /* HouseColour.swift */,
+				A3636BE02A4884A100A47656 /* DecoyBirds.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +201,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3DB929E2A45909D00D6919B /* Preview Assets.xcassets in Resources */,
+				A3636BDF2A48736300A47656 /* daenerys.jpg in Resources */,
+				A39D52272A4AF7D800C80FDF /* averageWesterosJane.jpg in Resources */,
+				A3B4A6032A49EA0B00962D65 /* averageWesterosJoe.jpg in Resources */,
 				A3DB929B2A45909D00D6919B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +215,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3BC37E92A484CF100590440 /* CharacterDetailView.swift in Sources */,
+				A3DA37232A4ABDCD00D05E98 /* CharacterDataManager.swift in Sources */,
+				A3446B8C2A4C5F5B00F0D3B6 /* Houses.swift in Sources */,
 				A3DB92992A45909500D6919B /* ContentView.swift in Sources */,
+				A3BC37F32A485EBA00590440 /* HouseColour.swift in Sources */,
+				A356428E2A4597280020728E /* Characters.swift in Sources */,
+				A3BC37EB2A484D1400590440 /* DecoyBirdListView.swift in Sources */,
+				A3BC37E72A484BD900590440 /* CharactersListView.swift in Sources */,
 				A3DB92972A45909500D6919B /* Varys_s_Book_of_Little_BirdsApp.swift in Sources */,
+				A3636BE12A4884A100A47656 /* DecoyBirds.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +356,12 @@
 				DEVELOPMENT_TEAM = 87V44QNLW8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Varys-s-Book-of-Little-Birds-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -282,9 +369,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "co.za.realpixel.Varys-s-Book-of-Little-Birds";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -299,11 +389,12 @@
 				DEVELOPMENT_TEAM = 87V44QNLW8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Varys-s-Book-of-Little-Birds-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,9 +402,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "co.za.realpixel.Varys-s-Book-of-Little-Birds";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
