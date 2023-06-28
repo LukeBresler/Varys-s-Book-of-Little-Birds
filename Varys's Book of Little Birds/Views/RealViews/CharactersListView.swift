@@ -11,13 +11,22 @@ import SwiftUI
 struct CharactersListView: View {
     @ObservedObject var characterDataManager = CharacterDataManager()
     @State private var searchText = ""
-   // @Binding var searchText: String
     @State private var showAlert = false
+    
+    var filteredCharacters: [Character] {
+            if searchText.isEmpty {
+                return characterDataManager.characters
+            } else {
+                return characterDataManager.characters.filter { $0.name.lowercased().contains(searchText.lowercased()) }
+            }
+        }
     
     var body: some View {
         NavigationView {
-            List(characterDataManager.characters, id: \.id) { character in
-                NavigationLink(destination: CharacterDetailView(character: character)) {
+          //  List(characterDataManager.characters, id: \.id) { character in
+            
+            List(filteredCharacters, id: \.id) { character in
+            NavigationLink(destination: CharacterDetailView(character: character)) {
                     HStack {
                         if character.gender == "Male" {
                             Image("averageWesterosJoe")
